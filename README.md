@@ -12,6 +12,7 @@
 * Rodar `npm install`
 * Criar arquivo .env (.env_example possui todas as informações) com informações de acesso ao banco de dados
 * Criar banco de dados com o mesmo nome que está no .env
+* Rodar `php artisan key:generate`
 * Rodar `php artisan migrate --seed`
 * Rodar `composer run dev`
 * Acessar a rota pelo navegador
