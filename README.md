@@ -8,13 +8,14 @@
 
 ### Comandos
 * Clone do repositório: `git clone <path>`
-* Rodar `composer install`
-* Rodar `npm install`
-* Criar arquivo .env (.env_example possui todas as informações) com informações de acesso ao banco de dados
-* Criar banco de dados com o mesmo nome que está no .env
-* Rodar `php artisan key:generate`
-* Rodar `php artisan migrate --seed`
-* Rodar `composer run dev`
+* Entre dentro da pasta e roda:
+    * Rodar `composer install`
+    * Rodar `npm install`
+    * Criar arquivo .env (.env_example possui todas as informações) com informações de acesso ao banco de dados
+    * Criar banco de dados com o mesmo nome que está no .env
+    * Rodar `php artisan key:generate`
+    * Rodar `php artisan migrate --seed`
+    * Rodar `composer run dev`
 * Acessar a rota pelo navegador
 * Para acessar as tarefas e utilizar o CRUD, faça login com o user:
   * email: test@example.com
